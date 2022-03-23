@@ -9,4 +9,4 @@ Matlab routine to solve problems using the Golden section, the Newton's method a
 Matlab routine to solve problems using the gradient method and steepest descent with Newton's method.
 
 ## Part 4
-plot functions with 2 variables.
+Plot functions with 2 variables.
