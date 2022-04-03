@@ -1,7 +1,7 @@
 % Q1
 clear all;
 
-ro = 1/3;
+ro = (3 - sqrt(5)) / 2;
 a0 = -2;
 b0 = 2;
 a1 = ro * (b0 - a0) + a0;
@@ -29,5 +29,3 @@ end
 function y = f(x)
     y = x^4 + 4 * x^3 + 9 * x^2 + 6 * x + 6;
 end
-
-

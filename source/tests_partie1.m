@@ -1,7 +1,6 @@
 % Tests pour la partie 1
 
-
-% Avec la Q4 du TD 
+% Avec la Q4 du TD
 
 fprintf("\nPour la question Q4 du TD, on obtient les résultats suivants :\n");
 
@@ -15,12 +14,10 @@ fprintf("\nAvec la méthode bourrin :\n");
 [f, x, B] = LP_bourrin(A4, b4, c4)
 
 fprintf("\nAvec la méthode Simplex :\n");
-[f, x, B] = LP_Simplex(A4, b4, c4, [1 2 3])
+[f, x, B] = LP_simplex(A4, b4, c4, [1 2 3])
 
 fprintf("\nAvec la méthode Two_Phase_Simplex :\n");
 [f, x, B] = LP_Two_Phase_Simplex(A4, b4, c4)
-
-
 
 % Avec la Q5 du TD
 
@@ -40,8 +37,6 @@ fprintf("\nAvec la méthode bourrin :\n");
 
 %fprintf("\nAvec la méthode Two_Phase_Simplex :\n");
 %[f, x, B] = LP_Two_Phase_Simplex(A5, b5, c5)
-
-
 
 % Avec l'exemple de la slide 45 du cours
 

@@ -1,4 +1,4 @@
-function [f, x, B] = LP_Simplex(A, b, c, v)
+function [f, x, B] = LP_simplex(A, b, c, v)
 
     % Check for errors in the arguments
     if ~ismatrix(A) || ~ismatrix(b) || ~ismatrix(c)
