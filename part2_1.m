@@ -1,4 +1,3 @@
-% Q1
 clear all;
 
 ro = (3 - sqrt(5)) / 2;
