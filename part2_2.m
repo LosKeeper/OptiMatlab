@@ -10,6 +10,15 @@ disp("With Secant method")
 disp("x=")
 disp(xSecant)
 
+% print curve with minimum points
+xaff=linspace(-4,4,500);
+yaff=2*xaff.^4-5*xaff.^3+100*xaff.^2+30*xaff-75;
+figure(1);
+hold on;
+plot(xaff,yaff,'b');
+plot(xNewton,2*xNewton.^4-5*xNewton.^3+100*xNewton.^2+30*xNewton-75,'r*');
+plot(xSecant,2*xSecant.^4-5*xSecant.^3+100*xSecant.^2+30*xSecant-75,'g*');
+
 function xk = Newton(x0, eps, Nmax)
     % This function implements the Newton method applied to the function from the question
     xk = x0;
